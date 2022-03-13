@@ -6,7 +6,7 @@ namespace Практическая_13_вариант_7
     {
         static void Main(string[] args)
         {
-
+            
             Console.WriteLine("Введите первое число");
             int a =  Convert.ToInt32( Console.ReadLine());
             Console.WriteLine("Введите второе число");
