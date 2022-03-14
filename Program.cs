@@ -16,7 +16,6 @@ namespace Практическая_13_вариант_7
             
         }
 
-
         int gcd03(int a, int b)
         {
 
@@ -29,7 +28,7 @@ namespace Практическая_13_вариант_7
                 b = tmp;
             }
 
-            while (a > 1L && b > 1L)
+            while (a > 1 && b > 1)
             {
                 for (int i = 2; i <= a; i++)
                 {
